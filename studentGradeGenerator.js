@@ -1,5 +1,5 @@
 let username = 'Marie';
-let grade = 70;
+let grade = 80;
 function calculateStudentGrade(){
       if (grade > 79 && grade < 100) {
         return `A`;

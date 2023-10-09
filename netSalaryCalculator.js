@@ -1,5 +1,6 @@
 //this code is to calculate the tax
-let salary = 48000;
+let salary = 62000;
+let username = 'Marie';
 let payeAmount , NHIF , tax , nssfDeductions , totalTaxes , netSalary; 
 function calculateTax (){
     let calculatePaye = function (){
@@ -72,7 +73,7 @@ function calculateTax (){
     totalTaxes = paye + NHIF + nssfDeductions;
     netSalary=salary-totalTaxes
 
-console.log(`Hello , your salary is ${salary} , NHIF is ${NHIF}, paye is ${payeAmount} and your nssf deduction is ${nssfDeductions
+console.log(`Hello ${username} , your salary is ${salary} , NHIF is ${NHIF}, paye is ${payeAmount} and your nssf deduction is ${nssfDeductions
     }. Therefore, your total taxes is ${totalTaxes} and net salary is ${netSalary}`)
 
 };
